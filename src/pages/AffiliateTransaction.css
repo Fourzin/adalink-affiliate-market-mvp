@@ -1,0 +1,33 @@
+
+.affiliate-transaction-background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--major-backgroundColor); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.affiliate-transaction-window{
+  background-color: var(--major-color);
+  color: var(--minor-color);
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  min-width: 260px;
+  max-width: 540px;
+  text-align: center;
+}
+
+.staticBtn{
+  background-color: var(--major-color); /* Use your theme color */
+  color: var(--minor-Color); /* Use your theme color */
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}

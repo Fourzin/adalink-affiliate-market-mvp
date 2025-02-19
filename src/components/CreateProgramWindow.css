@@ -1,0 +1,12 @@
+.slider{
+  width: 100%;
+}
+
+.saturation-target-field{
+  
+}
+
+.saturation-values{
+  display: flex;
+  justify-content: space-between;
+}
